@@ -134,9 +134,9 @@ section.container{
 summary {
   writing-mode: vertical-lr;
   text-align: center;
-  padding: 0px 10px;
-  width: 23px;
-  height: 17px;
+  padding: 0px 1em;
+  width: 2em;
+  height: auto;
   background-color: var(--primColor);
   border: 2px solid var(--secoColor);
   border-radius: var(--cornerRad);
@@ -253,14 +253,14 @@ details[open]::before {
 .neonText {
   color: #fff;
   text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
+      0 0 1.75px #fff,
+      0 0 2.5px #fff,
+      0 0 5.25px #fff,
+      0 0 10.5px #0fa,
+      0 0 20.5px #0fa,
+      0 0 23px #0fa,
+      0 0 25.5px #0fa,
+      0 0 37.75px #0fa;
 }
 
 /* Vertical Text */
@@ -308,10 +308,10 @@ div.multicolor{
   background: none;
 }
 .cta span {
-  padding-bottom: 7px;
-  letter-spacing: 4px;
+  padding-bottom: .75em;
+  letter-spacing: .25em;
   font-size: 14px;
-  padding-right: 15px;
+  padding-right: 1em;
   text-transform: uppercase;
 }
 .cta svg {
@@ -327,7 +327,7 @@ div.multicolor{
 .hover-underline-animation {
   position: relative;
   color: black;
-  padding-bottom: 20px;
+  padding-bottom: 2em;
 }
 .hover-underline-animation:after {
   content: "";
@@ -354,7 +354,7 @@ div.multicolor{
   box-sizing: border-box;
 }
 .main-container {
-  padding: 30px;
+  padding: 3em;
 }
 
 .heading {
@@ -470,8 +470,8 @@ button.purple {
 /* Clicky Button */
 button.clicky {
   position: relative;
-  padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
+  padding: 1em 3em;
+  margin: 0 1em 1em 0;
   float: left;
   border-radius: 3px;
   font-size: 20px;
@@ -539,7 +539,7 @@ img.turning {
 }
 .card__image {      
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .card__overlay {
   position: absolute;
@@ -561,7 +561,8 @@ img.turning {
   align-items: center;
   gap: 2em;
   padding: 2em;
-  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  height: 2em;
+  border-radius: calc(var(--curve) * .75px) 0 0 0;    
   background-color: var(--surface-color);
   transform: translateY(-100%);
   transition: .2s ease-in-out;
@@ -596,18 +597,18 @@ img.turning {
 .card__tagline {
   display: block;
   margin: 1em 0;
-  font-family: "MockFlowFont";  
+  font-family: 'Montserrat', sans-serif;
   font-size: .8em; 
-  color: #D7BDCA;  
+  color: #5e76bf;  
 }
 .card__status {
   font-size: .8em;
-  color: #D7BDCA;
+  color: #5e76bf;
 }
 .card__description {
-  padding: 0 2em 2em;
+  padding: 1em 2em 1em;
   margin: 0;
-  color: #D7BDCA;
+  color: #5e76bf;
   font-family: "MockFlowFont";   
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -653,14 +654,8 @@ p.fixesstuff {
   text-transform: uppercase;
   cursor: pointer;
 }
-.tag-teal {
-  background-color: #47bcd4;
-}
 .tag-purple {
   background-color: #5e76bf;
-}
-.tag-pink {
-  background-color: #cd5b9f;
 }
 .card-body p {
   font-size: 13px;
