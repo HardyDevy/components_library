@@ -419,13 +419,13 @@ div.multicolor{
   color: #000000 !important;
 }
 .card-1 {
-  background: radial-gradient(#8affff, #3fbafe);
+  background: radial-gradient(#1da054, #2ecc71);
 }
 /* end Growing Button */
 
 /* Purple Swoosh Button */
 button.purple {
-  --color: #560bad;
+  --color: #2ecc71;
   font-family: inherit;
   display: inline-block;
   width: 8em;
@@ -462,7 +462,7 @@ button.purple {
   left: -30px;
  }
  button.purple:active:before {
-  background: #3a0ca3;
+  background: #2ecc71;
   transition: background 0s;
  }
 /* End Purple Swoosh Button */
